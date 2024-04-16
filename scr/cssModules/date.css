@@ -1,0 +1,45 @@
+@import "global.css";
+
+.date {
+    background-color: var(--black-background);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 150px;
+    min-height: 150px;
+
+    border-radius: 30px;
+    padding: 20px;
+
+    .location {
+        color: var(--orange-font);
+        font-size: 10px;
+        font-weight: 500;
+        font-family: 'Inter';
+    }
+
+    .day {
+        color: var(--orange-font);
+        font-size: 48px;
+        font-weight: 700;
+        font-family: 'Inter';
+    }
+
+    .month {
+        color: var(--orange-font);
+        font-size: 24px;
+        font-weight: 400;
+        font-family: 'Inter';
+    }
+
+    span:has(span) {
+        display: inline-flex;
+        align-items: baseline;
+        gap: 5px;
+    }
+}

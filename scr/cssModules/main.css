@@ -1,0 +1,17 @@
+@import "global.css";
+
+body {
+    background-color: var(--black-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+main {
+    max-width: 380px;
+    max-height: 380px;
+    background-color: var(--dust-background);
+    border-radius: 60px;
+    padding: 30px;
+}
